@@ -1,0 +1,19 @@
+[Modules]
+Minimal CM
+
+[Minimal CM]
+RuntimeProgram=Quipu/CM/Quipu.KC.CM/Quipu.KC.CM.exe
+ModuleID=Quipu.KC.CM.exe
+Description=Minimal Template for a Custom Module in C#
+Version=1.0
+SupportsTableFields=True
+SupportsNonImageFiles=True
+SetupProgram=Minimal CM Setup
+
+[Setup Programs]
+Minimal CM Setup
+
+[Minimal CM Setup]
+Visible=0
+OCXFile=Quipu/CM/Quipu.KC.CM/Quipu.KC.CM.exe
+ProgID=Quipu.KC.CM.Setup
